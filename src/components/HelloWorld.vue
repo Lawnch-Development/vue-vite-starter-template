@@ -1,11 +1,11 @@
 <template>
   <div>
-    <p class="text-green-500 text-6xl font-semibold">Hello {{ string }}!</p>
+    <p class="text-green-500 text-6xl font-semibold">
+      Hello {{ props.string }}!
+    </p>
   </div>
 </template>
 
 <script setup lang="ts">
-import { ref } from "@vue/reactivity";
-
-const string = ref("World");
+const props = defineProps({ string: { type: String, default: "" } });
 </script>

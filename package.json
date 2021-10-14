@@ -4,9 +4,15 @@
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build",
-    "serve": "vite preview"
+    "serve": "vite preview",
+    "test:e2e": "cypress open",
+    "test:e2e-run": "cypress run",
+    "test:ct": "cypress open-ct",
+    "test:ct-run": "cypress run-ct"
   },
   "dependencies": {
+    "@cypress/vite-dev-server": "^2.1.1",
+    "@cypress/vue": "^3.0.3",
     "autoprefixer": "^10.3.7",
     "postcss": "^8.3.9",
     "tailwindcss": "^2.2.16",
@@ -21,6 +27,7 @@
     "@vitejs/plugin-vue": "^1.9.3",
     "@vue/eslint-config-prettier": "^6.0.0",
     "@vue/eslint-config-typescript": "^7.0.0",
+    "cypress": "^8.6.0",
     "eslint": "^8.0.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-prettier": "^4.0.0",
