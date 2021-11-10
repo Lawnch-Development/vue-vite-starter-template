@@ -1,7 +1,7 @@
 {
   "baseUrl": "http://localhost:3000",
   "component": {
-    "componentFolder": "src",
+    "componentFolder": "tests/components",
     "testFiles": "**/*.spec.ts"
   },
   "video": false,

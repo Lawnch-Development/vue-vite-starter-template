@@ -22,6 +22,7 @@
     "src/**/*.tsx",
     "src/**/*.vue",
     "src/.eslintrc.js",
+    "tests/**/*.spec.ts",
     "components.d.ts"
   ]
 }
