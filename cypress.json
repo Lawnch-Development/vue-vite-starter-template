@@ -3,5 +3,7 @@
   "component": {
     "componentFolder": "src",
     "testFiles": "**/*.spec.ts"
-  }
+  },
+  "video": false,
+  "screenshotOnRunFailure": false
 }
